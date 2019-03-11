@@ -17,8 +17,54 @@
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
+	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.homebysix.pkg.Proximity</string>
+	<string>com.github.kylejericson.autopkg-recipes.Proximity-upload2</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.homebysix.VersionSplitter/VersionSplitter</key>
+			<dict>
+				<key>git_hash</key>
+				<string>acf638a7818a097b9aae780fed065e582d38bb94</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/VersionSplitter/VersionSplitter.py</string>
+				<key>sha256_hash</key>
+				<string>51baa46b916fa00b4dab826e9065a94fd27a75174a279225f89a4c18a700ae6e</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.Proximity</key>
+			<dict>
+				<key>git_hash</key>
+				<string>fa5cfb4b2d36ca28e9a5af8d3ac523ff82689618</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Cisco/Proximity.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>c30dad09234490b5ea74b031235f7c5f119d4e984314c54402dc2957114a593d</string>
+			</dict>
+			<key>com.github.homebysix.pkg.Proximity</key>
+			<dict>
+				<key>git_hash</key>
+				<string>54ebd6b1059db1d1512c1880a6dcb366ce2ce7dd</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Cisco/Proximity.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5ec605ad176a8492f6f1448e59c1ec87bd72893c0b70cb6e15321249dbac7678</string>
+			</dict>
+			<key>com.github.kylejericson.autopkg-recipes.Proximity-upload2</key>
+			<dict>
+				<key>git_hash</key>
+				<string>9908bc33ef0a23be7a0dd6dddd0a5470b5724c7f</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.kylejericson.autopkg-recipes/Cisco Proximity/Proximity-upload2.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>2a43c58c6e900f1a502009e8e2ce8e768c68c9b2e63fc8b87e4703b6cc4e42e7</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>Process</key>
 	<array>
 		<dict>
