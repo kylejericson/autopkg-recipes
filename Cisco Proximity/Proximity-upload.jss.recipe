@@ -12,43 +12,25 @@
 	<dict>
 		<key>CATEGORY</key>
 		<string>Applications</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>Cisco Proximity</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Cisco Proximity allows you to control your video system, interact with shared content and share wirelessly.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
-	</dict>
-		<key>parent_recipes</key>
-		<dict>
-			<key>com.github.homebysix.download.Proximity</key>
-			<dict>
-				<key>git_hash</key>
-				<string>fa5cfb4b2d36ca28e9a5af8d3ac523ff82689618</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Cisco/Proximity.download.recipe</string>
-				<key>sha256_hash</key>
-				<string>c30dad09234490b5ea74b031235f7c5f119d4e984314c54402dc2957114a593d</string>
-			</dict>
-			<key>com.github.homebysix.pkg.Proximity</key>
-			<dict>
-				<key>git_hash</key>
-				<string>54ebd6b1059db1d1512c1880a6dcb366ce2ce7dd</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Cisco/Proximity.pkg.recipe</string>
-				<key>sha256_hash</key>
-				<string>5ec605ad176a8492f6f1448e59c1ec87bd72893c0b70cb6e15321249dbac7678</string>
-			</dict>
-			<key>com.github.kylejericson.autopkg-recipes.jss.Proximity-upload</key>
-			<dict>
-				<key>git_hash</key>
-				<string>9908bc33ef0a23be7a0dd6dddd0a5470b5724c7f</string>
-				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.kylejericson.autopkg-recipes/Cisco Proximity/Proximity-upload.jss.recipe</string>
-				<key>sha256_hash</key>
-				<string>2a43c58c6e900f1a502009e8e2ce8e768c68c9b2e63fc8b87e4703b6cc4e42e7</string>
-			</dict>
-		</dict>
-	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.pkg.Proximity</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -56,8 +38,29 @@
 			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAME%</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%GROUP_TEMPLATE%</string>
+					</dict>
+				</array>
+				<key>pkg_path</key>
+				<string>%pkg_path%</string>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
+				<key>self_service_icon</key>
+				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
