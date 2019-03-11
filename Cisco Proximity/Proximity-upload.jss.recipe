@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Proximity and imports it into your JSS.</string>
 	<key>Identifier</key>
-    <string>com.github.kylejericson.autopkg-recipes.Proximity-upload</string>
+    <string>com.github.kylejericson.autopkg-recipes.jss.Proximity-upload</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
