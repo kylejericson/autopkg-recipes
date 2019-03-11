@@ -11,7 +11,6 @@
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>NAME</key>
-		<string>Spotify</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
@@ -26,6 +25,13 @@
 				<string>%CATEGORY%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
+				<key>scripts</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>SpotifyPostinstall.sh</string>
+						<key>template_path</key>
+						<string>SpotifyScriptTemplate.xml</string>
 					</dict>
 				</array>
 			</dict>
