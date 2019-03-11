@@ -26,15 +26,6 @@
 				<string>%CATEGORY%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
-				<key>scripts</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>SpotifyPostinstall.sh</string>
-						<key>template_path</key>
-						<string>SpotifyScriptTemplate.xml</string>
-					</dict>
-				</array>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
