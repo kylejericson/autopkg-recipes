@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Slack and makes a pkg of it Then, uploads to the JSS.</string>
+	<string>Uses parent pkg recipe to download latest GoogleChrome and import it into the JSS.</string>
 	<key>Identifier</key>
-    <string>com.github.kylejericson.autopkg-recipes.salckup</string>
+    <string>com.github.kylejericson.autopkg-recipes.Google Chrome-upload</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Applications</string>
+        <string>Applications</string>
 		<key>NAME</key>
-		<string>Slack</string>
+		<string>Google Chrome</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.2.0</string>
+	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.killahquam.pkg.slack</string>
+	<string>com.github.autopkg.pkg.googlechrome</string>
 	<key>Process</key>
 	<array>
 		<dict>

@@ -3,30 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Uses parent pkg recipe to download latest GoogleChrome and import it into the JSS.</string>
+	<string>Downloads the latest version of Adobe Acrobat Reader DC and makes a pkg of it then uploads it to the JSS.</string>
 	<key>Identifier</key>
-    <string>com.github.kylejericson.autopkg-recipes.Google Chromeup</string>
+	<string>com.github.kylejericson.autopkg-recipes..AdobeReaderDC-upload</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-        <string>Applications</string>
+		<string>Applications</string>
 		<key>NAME</key>
-		<string>Google Chrome</string>
+		<string>Adobe Acrobat Reader DC</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.googlechrome</string>
+	<string>com.github.autopkg.pkg.AdobeReaderDC</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>category</key>
-				<string>%CATEGORY%</string>
+				<string>%CATEGORY%</string>	
 				<key>prod_name</key>
 				<string>%NAME%</string>
-			</dict>
+				</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>

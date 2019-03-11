@@ -3,18 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of BBEdit and makes a pkg of it then uploads it to the JSS.</string>
+	<string>Downloads latest Silverlight installer, copies the package to the build directory with an appended version number, and uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.kylejericson.autopkg-recipes.BBEditup</string>
+    <string>com.github.kylejericson.autopkg-recipes.Silverlight-upload</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
 		<string>Applications</string>
+		<key>NAME</key>
+		<string>Silverlight</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.BBEdit</string>
+	<string>com.github.autopkg.pkg.Silverlight</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -24,6 +26,13 @@
 				<string>%CATEGORY%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
+				<key>extension_attributes</key>
+				<array>
+					<dict>
+						<key>ext_attribute_path</key>
+						<string>SilverlightExtensionAttribute.xml</string>
+					</dict>
+				</array>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
