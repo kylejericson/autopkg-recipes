@@ -10,7 +10,7 @@ Credit to the original creators of the firefox.jss recipe, Homebysix and Novaksa
     <key>Input</key>
     <dict>
         <key>CATEGORY</key>
-        <string>Productivity</string>
+        <string>Applications</string>
         <key>NAME</key>
         <string>Firefox</string>
     </dict>
