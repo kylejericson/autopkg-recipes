@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Slack and makes a pkg of it Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-    <string>com.github.kylejericson.autopkg-recipes.slack-upload</string>
+    <string>com.github.kylejericson.jss-upload.Slack</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
