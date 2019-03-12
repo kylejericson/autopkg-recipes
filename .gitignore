@@ -2,4 +2,4 @@
 .DS_Store
 
 # don't track .pyc files
-*.pyc
+*.pyc.DS_Store
