@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads Cisco Proximity disk image and builds a package, then uploads to the JSS.</string>
 	<key>Identifier</key>
-    <string>com.github.kylejericson.autopkg-recipes.Cisco-Proximity-upload</string>
+    <string>com.github.kylejericson.jss-upload.CiscoProximity</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
