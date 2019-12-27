@@ -24,6 +24,7 @@
 				<string>%CATEGORY%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
+				
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
