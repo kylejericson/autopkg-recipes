@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Google Drive File Stream, repackages it, and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.kylejericson.jss.googledrivefs</string>
+	<string>com.github.kylejericson.jss-upload.googledrivefs</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
