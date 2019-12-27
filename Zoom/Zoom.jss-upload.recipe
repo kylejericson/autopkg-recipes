@@ -10,6 +10,8 @@
 	<dict>
 		<key>CATEGORY</key>
 		<string>Applications</string>
+		<key>NAME</key>
+		<string>Zoom</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
@@ -24,7 +26,6 @@
 				<string>%CATEGORY%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
-				
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
