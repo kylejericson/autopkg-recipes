@@ -18,14 +18,18 @@
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.pkg.dropbox</string>
 	<key>Process</key>
-	<array>
-		<dict>
-				<key>prod_name</key>
-				<string>%NAME%</string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict>
-	</array>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>category</key>
+                <string>%CATEGORY%</string>
+                <key>prod_name</key>
+                <string>%NAME%</string>
+            </dict>
+            <key>Processor</key>
+            <string>JSSImporter</string>
+        </dict>
+    </array>
 </dict>
 </plist>
