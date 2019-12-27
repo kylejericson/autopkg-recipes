@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Zoom and builds a package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-    <string>com.github.kylejericson.jss-upload.Google Chrome</string>
+    <string>com.github.kylejericson.jss-upload.Zoom</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
