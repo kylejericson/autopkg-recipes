@@ -30,7 +30,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>hornit.pkg.ZohoMail-Desktop</string>
+	<string>hornit.download.ZohoMail-Desktop</string>
 	<key>Process</key>
 	<array>
 		<dict>
